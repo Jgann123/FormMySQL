@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.form{
+  background: -webkit-linear-gradient(left, #ffc400, #070707);
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 2.5rem;
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+  margin-right: 6%;
+  color: rgb(83, 81, 81);
+  margin-top: 4%;
+}
+
+#appt-start {
+  color: #e9ecef;
+}
+
+
+.btnSubmit2
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+  margin-right: 6%;
+  color: rgb(83, 81, 81);
+  margin-top: 4%;
+}
