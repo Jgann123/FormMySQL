@@ -4,47 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel='stylesheet' href='./stylesheets/style.css' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="stylesheet/style.css">
 </head>
 <body>
-    <h1>PWA leads</h1>
+    
 
-<form action="/leadsSubmit" method="POST">
-<div>
-    <label for="event_id"> Event List:</label>
+<form id="form" action="/leadsSubmit" method="POST">
+<h1>PWA leads</h1>
+<hr>
+<div class="flex-outer">
+
+    <label for="event_id"> Event List:</label><br>
     <select type="text" id= "list" name="event_id" class="form-control">
          <option value="Bev Smith Kia’s Reprocessed Car Sale & Trade In Event">Bev Smith Kia’s Reprocessed Car Sale & Trade In Event</option>
          <option value="Bev Smith Toyota’s Used Vehicle Buy Back Extravaganza">Bev Smith Toyota’s Used Vehicle Buy Back Extravaganza</option>
          <option value="Bill Russell Ford's After Labor Day Ultimate Trade In Buy Back Event">Bill Russell Ford's After Labor Day Ultimate Trade In Buy Back Event</option>
     </select> 
+  
+      <div>
+        <Label id="first_name" for="first_name">First Name:</Label><br>
+        <input type="text" name="first_name" class="form-control" placeholder="FirstName*">
+      </div>
+       
+      <div>
+        <Label for="last_name" >Last Name:</Label><br>
+        <input type="text" name="last_name" class="form-control" placeholder="LastName*">
+      </div>
+
+       <div>
+        <Label for="phone">phone:</Label><br>
+        <input type="text" name="phone" class="form-control" placeholder="Phone*">
+       </div>
+
     <div>
-        <Label for="first_name">First Name:</Label>>
-        <input type="text" name="first_name">
-    </div>
-    <div>
-        <Label for="last_name">Last Name:</Label>>
-        <input type="text" name="last_name">
-    </div>
-    <div>
-        <Label for="phone">phone:</Label>>
-        <input type="text" name="phone">
-    </div>
-    <div>
-        <Label for="email">email:</Label>>
-        <input type="text" name="email">
-    </div>
-    <div>
-        <Label for="appt_date">Date:</Label>>
-        <input type="date" name="appt_date">
-    </div>
-    <div>
-        <Label for="appt_time">Time:</Label>>
-        <input type="time" name="appt_time">
-    </div>
-    <div>
-        <button type="submit">Submit</button>
-    </div>
-</div>
+        <Label for="email">email:</Label><br>
+        <input type="text" name="email" class="form-control" placeholder="email*">
+     </div>
+     
+       <div>
+        <Label for="appt_date">Date:</Label><br>
+        <input type="date" name="appt_date" class="form-control" >
+       </div>
+
+       <div>
+        <Label for="appt_time">Time:</Label><br>
+        <input type="time" name="appt_time" class="form-control">
+       </div><br>
+       <div>
+        <button id="submit" type="submit" class="form-control" >Submit</button>
+       </div>
+     </div>
 </form> 
     <style>.form{
   background: -webkit-linear-gradient(left, #ffc400, #070707);

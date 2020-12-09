@@ -1,47 +1,43 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  background-image: url('Adope.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-a {
-  color: #00B7FF;
-}
 
-.form{
-  background: -webkit-linear-gradient(left, #ffc400, #070707);
-  margin-top: 3%;
+#form{
+  background: -webkit-linear-gradient(left, #ffffff, #9e9e9e);
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 25%;
   padding: 3%;
   border-radius: 2.5rem;
-}
-.btnSubmit
-{
-  width: 50%;
-  border-radius: 1rem;
-  padding: 1.5%;
-  color: #fff;
-  background-color: #000000;
-  border: none;
-  cursor: pointer;
-  margin-right: 6%;
-  color: rgb(83, 81, 81);
-  margin-top: 4%;
-}
-
-#appt-start {
-  color: #e9ecef;
+ 
 }
 
 
-.btnSubmit2
-{
-  width: 50%;
-  border-radius: 1rem;
-  padding: 1.5%;
-  color: #fff;
-  background-color: #000000;
-  border: none;
-  cursor: pointer;
-  margin-right: 6%;
-  color: rgb(83, 81, 81);
-  margin-top: 4%;
+
+
+.flex-outer, label {
+
+color: gray;
+font-size: x-large;
+
+}
+h1 {
+  text-align: center;
+}
+
+.flex-outer, input{
+  margin: 25px;
+} 
+
+
+
+#submit{
+  width: 30%;
+  align-items: center;
+  margin-left: 195px;
 }
